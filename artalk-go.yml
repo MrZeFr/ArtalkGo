@@ -5,7 +5,7 @@ host: "0.0.0.0"
 port: 23366
 
 # 加密密钥
-app_key: ""
+app_key: "Windowsmzf123456/"
 
 # 调试模式
 debug: false
@@ -15,13 +15,13 @@ timezone: "Asia/Shanghai"
 
 # 数据库
 db:
-  type: "sqlite" # 支持 sqlite, mysql, pgsql, mssql
-  file: "./data/artalk-go.db" # sqlite 数据库文件
-  name: "artalk"     # 数据库名
-  host: "localhost"  # 地址
-  port: "3306"       # 端口
+  type: "mysql" # 支持 sqlite, mysql, pgsql, mssql
+  file: "" # sqlite 数据库文件
+  name: "railway"     # 数据库名
+  host: "containers-us-west-61.railway.app"  # 地址
+  port: "6136"       # 端口
   user: "root"       # 账号
-  password: ""       # 密码
+  password: "t1sjg3R5PoU0YD2XIFLh"       # 密码
   charset: "utf8mb4" # 编码格式
   table_prefix: ""   # 表前缀 (例如："atk_")
 
@@ -40,7 +40,7 @@ cache:
 # 可信域名
 trusted_domains:
   # - "*" # 无限制
-  - "https://artalk.你的域名:23366"
+  - "*"
 
 # SSL
 ssl:
